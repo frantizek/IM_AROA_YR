@@ -17,7 +17,11 @@ https://recruit.swgoh.gg/guild/3111/mperio-mandaloriano-aroa-yr
 
 Discord:
 
-https://discord.gg/byFfAbP2
+<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+
+[Imperio Mandaloriano Aroa'yr en Discord](https://discord.gg/byFfAbP2)
+
+
 
 
 Telegram:
