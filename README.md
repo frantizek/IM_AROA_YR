@@ -6,7 +6,7 @@
 
 Enlace del gremio en swgoh.gg:
 
-https://swgoh.gg/g/pTtJHHuYQcSMinxQXXZJgA/
+<a href="https://swgoh.gg/g/pTtJHHuYQcSMinxQXXZJgA/"><img src="https://img.shields.io/badge/swgoh%20gg-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white" /></a>
 
 
 Reclutamiento:
