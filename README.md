@@ -24,3 +24,10 @@ https://recruit.swgoh.gg/guild/3111/mperio-mandaloriano-aroa-yr
 
 
 [Contacta al lider del Imperio Mandaloriano Aroa'yr](https://t.me/ISRATHENEFILIM)
+
+
+## Herramientas para Modeo
+
+(Pagina en Ingles)
+
+https://mods-optimizer.swgoh.grandivory.com/
