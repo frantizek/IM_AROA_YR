@@ -31,3 +31,9 @@ https://recruit.swgoh.gg/guild/3111/mperio-mandaloriano-aroa-yr
 (Pagina en Ingles)
 
 https://mods-optimizer.swgoh.grandivory.com/
+
+## Counters
+
+http://swgoh-ga5.online-server.info/
+
+https://swgoh4.life/counters/
