@@ -1,3 +1,4 @@
+"""Imports needed to complete the script tasks.""" 
 import re
 import csv
 import requests
@@ -5,13 +6,15 @@ from bs4 import BeautifulSoup
 
 
 def read_file(filename):
+    """Open the file in read mode, returns the lines."""
     with open(filename, "r", encoding="utf-8") as f:
         lines = f.readlines()
     return lines
 
 def search_telegram_user(user_name, dict_of_users):
+    """Using the dictionary, return the link with the user."""
     if user_name in dict_of_users.keys():
-        return "https://t.me/{}".format(dict_of_users[user_name].replace("@", ""))
+        return f"https://t.me/{dict_of_users[user_name].replace('@', '')}"
     else:
         return " "
 
