@@ -52,7 +52,8 @@ def main():
         for result in results:
             if "Name" in result.keys():
                 tag_converted_to_str = str(result['Name'])
-                username_swgoh = re.search(r'<div><strong>(.*?)</strong></div>', tag_converted_to_str).group(1)
+                username_swgoh = re.search(r'<div><strong>(.*?)</strong></div>',
+                                            tag_converted_to_str).group(1)
                 allycode_swgoh = re.search(r'<a href="/p/(.*?)/">', tag_converted_to_str).group(1)
                 kryat = f"/krayt max allycode: {allycode_swgoh}"
                 telegram = search_telegram_user(username_swgoh.lower(), d_users)
