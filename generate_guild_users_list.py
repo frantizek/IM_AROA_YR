@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 
 def read_file(filename):
     """Open the file in read mode, returns the lines."""
-    with open(filename, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    with open(filename, "r", encoding="utf-8") as this_file:
+        lines = this_file.readlines()
     return lines
 
 def search_telegram_user(user_name, dict_of_users):
@@ -19,6 +19,7 @@ def search_telegram_user(user_name, dict_of_users):
         return " "
 
 def main():
+    """Lets create a list with the latest guils members."""
     d_users = {}
     filename = "IM_AROA_YR.txt"
     lines = read_file(filename)
@@ -28,8 +29,8 @@ def main():
 
     csv_header = ['Usuario swgoh', 'Codigo aliado', 'comando kryat', 'Usuario Telegram' ]
 
-    with open('gremio_aroa.csv', 'w', encoding="UTF8", newline='') as f:
-        writer = csv.writer(f, delimiter=',')
+    with open('gremio_aroa.csv', 'w', encoding="UTF8", newline='') as this_file:
+        writer = csv.writer(this_file, delimiter=',')
 
         # write the header
         writer.writerow(csv_header)
@@ -53,14 +54,14 @@ def main():
                 tag_converted_to_str = str(result['Name'])
                 username_swgoh = re.search(r'<div><strong>(.*?)</strong></div>', tag_converted_to_str).group(1)
                 allycode_swgoh = re.search(r'<a href="/p/(.*?)/">', tag_converted_to_str).group(1)
-                kryat = "/krayt max allycode: {}".format(allycode_swgoh)
+                kryat = f"/krayt max allycode: {allycode_swgoh}"
                 telegram = search_telegram_user(username_swgoh.lower(), d_users)
 
                 # write the data
                 writer.writerow([username_swgoh, allycode_swgoh, kryat, telegram])
 
     # close the file
-    f.close()
+    this_file.close()
 
 
 if __name__ == "__main__":
