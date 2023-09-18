@@ -41,9 +41,12 @@ https://swgoh4.life/counters/
 
 
 
-Frantizek
+
+### Comentarios, cambios o sugerencias:
+
+Contacta a Frantizek
 
 
-<a href="https://t.me/frantizek"><img src="images/icons8-telegram-48.png" /></a>
-<a href="https://swgoh.gg/p/447693819/"><img src="images/icons8-swgoh-64.png" /></a>
-<a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png" /></a>
+<a href="https://t.me/frantizek"><img src="images/icons8-telegram-48.png" alt="Frantizek en Telegram" width="24" height="24" /></a>
+<a href="https://swgoh.gg/p/447693819/"><img src="images/icons8-swgoh-64.png" alt="Frantizek en swgoh.gg" width="24" height="24" /></a>
+<a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png" alt="Chebacca Bot en Discord" width="24" height="24" /></a>
