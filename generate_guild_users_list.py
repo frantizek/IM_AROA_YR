@@ -80,8 +80,8 @@ def main():
 
     f = open("IM_AROA_YR.md", "w", encoding="utf-8")
     f.writelines(["# Imperio Mandaloriano Aroa'yr\n"])
-    f.writelines(["\n | Codigo de aliado | Usuario en SWGOH | Enlace Perfil SWGOH | Usuario en Telegram | Mensaje Telegram | Comando kryat en Discord | Mensaje al Bot en Discord | \n"])
-    f.writelines(["|:--- |: ----: | : ----:|: ----: | : ----:|: ----: |---: | \n"])
+    f.writelines(["\n| Codigo de aliado | Usuario en SWGOH | Enlace Perfil SWGOH | Usuario en Telegram | Mensaje Telegram | Comando kryat en Discord | Mensaje al Bot en Discord |\n"])
+    f.writelines(["|--- | ----:|:----|----:|:----| ---- |--- |\n"])
     for guild_users in range(0, len(acode_l)):
         f.writelines([f"| {acode_l[guild_users]} |{uswgoh_l[guild_users]} | <a href=\"https://swgoh.gg/p/{acode_l[guild_users]}/\"><img src=\"images/icons8-swgoh-64.png\" alt=\"Perfil en swgoh.gg\" width=\"24\" height=\"24\" /></a> | {telegram_l[guild_users]} | <a href=\"{message_me_l[guild_users]}\"><img src=\"images/icons8-telegram-48.png\" alt=\"Mensaje por Telegram.\" width=\"24\" height=\"24\"  /></a> | {kryat_l[guild_users]} | <a href=\"https://discord.com/channels/@me/1120739028111728740\"><img src=\"images/icons8-discord-48.png\"  alt=\"Consulta el Bot en Discord.\" width=\"24\" height=\"24\" /></a> |\n"])
     f.writelines(["|  |  |  |   | | | | \n"])
