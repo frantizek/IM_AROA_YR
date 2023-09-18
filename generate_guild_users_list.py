@@ -14,7 +14,7 @@ def read_file(filename):
 def search_telegram_user(user_name, dict_of_users):
     """Using the dictionary, return the link with the user."""
     if user_name in dict_of_users.keys():
-        return f"https://t.me/{dict_of_users[user_name].replace('@', '')}"
+        return dict_of_users[user_name].replace('@', '')
     else:
         return " "
 
@@ -27,7 +27,7 @@ def main():
         user_data = line.strip().split(" ", 1)
         d_users[user_data[1].lower()] = user_data[0].lower()
 
-    csv_header = ['Usuario swgoh', 'Codigo aliado', 'comando kryat', 'Usuario Telegram' ]
+    csv_header = ['Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram', 'comando kryat en Discord']
 
     with open('gremio_aroa.csv', 'w', encoding="UTF8", newline='') as this_file:
         writer = csv.writer(this_file, delimiter=',')
@@ -59,7 +59,7 @@ def main():
                 telegram = search_telegram_user(username_swgoh.lower(), d_users)
 
                 # write the data
-                writer.writerow([username_swgoh, allycode_swgoh, kryat, telegram])
+                writer.writerow([allycode_swgoh, username_swgoh, telegram, kryat])
 
     # close the file
     this_file.close()
