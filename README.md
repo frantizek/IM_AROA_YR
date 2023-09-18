@@ -39,7 +39,11 @@ http://swgoh-ga5.online-server.info/
 https://swgoh4.life/counters/
 
 
+
+
 Frantizek
+
+
 <a href="https://t.me/frantizek"><img src="images/icons8-telegram-48.png" /></a>
 <a href="https://swgoh.gg/p/447693819/"><img src="images/icons8-swgoh-64.png" /></a>
 <a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png" /></a>
