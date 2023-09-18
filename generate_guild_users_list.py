@@ -1,4 +1,4 @@
-"""Imports needed to complete the script tasks.""" 
+"""Imports needed to complete the script tasks."""
 import re
 import csv
 import requests
@@ -11,12 +11,14 @@ def read_file(filename):
         lines = this_file.readlines()
     return lines
 
+
 def search_telegram_user(user_name, dict_of_users):
     """Using the dictionary, return the link with the user."""
     if user_name in dict_of_users.keys():
         return dict_of_users[user_name].replace('@', '')
     else:
         return " "
+
 
 def main():
     """Lets create a list with the latest guils members."""
@@ -59,11 +61,11 @@ def main():
             if "Name" in result.keys():
                 tag_converted_to_str = str(result['Name'])
                 username_swgoh = re.search(r'<div><strong>(.*?)</strong></div>',
-                                            tag_converted_to_str).group(1)
+                                           tag_converted_to_str).group(1)
                 allycode_swgoh = re.search(r'<a href="/p/(.*?)/">', tag_converted_to_str).group(1)
                 kryat = f"/krayt max allycode: {allycode_swgoh}"
                 telegram = search_telegram_user(username_swgoh.lower(), d_users)
-                
+
                 acode_l.append(allycode_swgoh)
                 uswgoh_l.append(username_swgoh)
                 telegram_l.append(telegram)
@@ -73,42 +75,19 @@ def main():
                 # write the data
                 writer.writerow([allycode_swgoh, username_swgoh, telegram, kryat])
 
-
-
     # close the file
     this_file.close()
 
-    import plotly.graph_objects as go
+    f = open("IM_AROA_YR.md", "w", encoding="utf-8")
+    f.writelines(["# Imperio Mandaloriano Aroa'yr\n"])
+    f.writelines(["\n|Codigo de aliado|Usuario en SWGOH|Enlace Perfil SWGOH|Usuario en Telegram|Mensaje Telegram|Comando kryat en Discord|Mensaje al Bot en Discord|\n"])
+    f.writelines(["|:--- |: ----: | : ----:|: ----: | : ----:|: ----: |---: |\n"])
 
-    headerColor = 'grey'
-    rowEvenColor = 'lightgrey'
-    rowOddColor = 'white'
-
-    fig = go.Figure(data=[go.Table(
-    header=dict(
-        values=['<b>Ally Code</b>','<b>Username SWGOH</b>','<b>Telegram User</b>','<b>Send Telegram Message</b>','<b>Kryat command</b>'],
-        line_color='darkslategray',
-        fill_color=headerColor,
-        align=['left','center'],
-        font=dict(color='white', size=12)
-    ),
-    cells=dict(
-        values=[
-        acode_l,
-        uswgoh_l,
-        telegram_l,
-        message_me_l,
-        kryat_l],
-        line_color='darkslategray',
-        # 2-D list of colors for alternating rows
-        fill_color = [[rowOddColor,rowEvenColor,rowOddColor, rowEvenColor]*50],
-        align = ['left', 'center'],
-        font = dict(color = 'darkslategray', size = 11)
-        ))
-    ])
-
-    fig.show()
+    for guild_users in range(0, len(acode_l)):
+        f.writelines([f"| {acode_l[guild_users]} |{uswgoh_l[guild_users]} | <a href=\"https://swgoh.gg/p/{acode_l[guild_users]}/\"><img src=\"images/icons8-swgoh-64.png\" /></a> | {telegram_l[guild_users]} | <a href=\"{message_me_l[guild_users]}\"><img src=\"images/icons8-telegram-48.png\" /></a> | {kryat_l[guild_users]} | <a href=\"https://discord.com/channels/@me/1120739028111728740\"><img src=\"images/icons8-discord-48.png\" /></a> |\n"])
+    f.writelines(["|  |  |  |   | | | | \n"])
+    f.close()
 
 
 if __name__ == "__main__":
-    main()
+  main()
