@@ -2,7 +2,7 @@
 # Imperio Mandaloriano Aroa'yr
 
 
-# Enlaces principales
+## Enlaces principales
 
 Enlace del gremio en swgoh.gg:
 
@@ -23,16 +23,24 @@ https://recruit.swgoh.gg/guild/3111/mperio-mandaloriano-aroa-yr
 <a href="https://t.me/ISRATHENEFILIM"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 
 
-[Contacta al lider del Imperio Mandaloriano Aroa'yr](https://t.me/ISRATHENEFILIM)
+[Contacta al líder del Imperio Mandaloriano Aroa'yr](https://t.me/ISRATHENEFILIM)
 
 
-## Herramientas para Modeo
 
-(Pagina en Ingles)
+### Tienda Web oficial del Juego
+
+(Página en inglés)
+
+https://store.galaxy-of-heroes.starwars.ea.com/
+
+
+### Herramientas para Modeo
+
+(Página en inglés)
 
 https://mods-optimizer.swgoh.grandivory.com/
 
-## Counters
+### Counters
 
 http://swgoh-ga5.online-server.info/
 
@@ -42,7 +50,7 @@ https://swgoh4.life/counters/
 
 
 
-### Comentarios, cambios o sugerencias:
+#### Comentarios, cambios o sugerencias:
 
 Contacta a Frantizek
 
