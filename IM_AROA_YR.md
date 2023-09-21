@@ -52,4 +52,16 @@
 | 734126584 |Zeruel | <a href="https://swgoh.gg/p/734126584/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | zeruelshinomori | <a href="https://t.me/zeruelshinomori"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> | /krayt max allycode: 734126584 | <a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png"  alt="Consulta el Bot en Discord." width="24" height="24" /></a> |
 | 624174832 |Dravhen Akkad | <a href="https://swgoh.gg/p/624174832/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | dravhen | <a href="https://t.me/dravhen"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> | /krayt max allycode: 624174832 | <a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png"  alt="Consulta el Bot en Discord." width="24" height="24" /></a> |
 | 961382775 |Josete | <a href="https://swgoh.gg/p/961382775/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | josete976 | <a href="https://t.me/josete976"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> | /krayt max allycode: 961382775 | <a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png"  alt="Consulta el Bot en Discord." width="24" height="24" /></a> |
-|  |  |  |   | | | | 
+|  |  |  |   | | | |
+
+
+
+
+
+                  
+
+<div style="text-align: center;">
+<a href="https://docs.google.com/spreadsheets/d/13gRpR_noZBz46L-uh9_pLAOHhXcOBPxBaGk6sxn92mc/edit?usp=sharing"><img src="images/Google_Sheets_2020_Logo.png" alt="Usuarios" height="24" /></a>
+<a href="https://docs.google.com/spreadsheets/d/13gRpR_noZBz46L-uh9_pLAOHhXcOBPxBaGk6sxn92mc/edit?usp=sharing">Enlace al archivo compartido en linea con los usuarios.</a>
+</div>
+                  
