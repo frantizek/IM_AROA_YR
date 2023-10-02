@@ -2,7 +2,11 @@
 # Imperio Mandaloriano Aroa'yr
 
 
+---------------------------------------
+
 ## Enlaces principales
+* * *
+
 
 Enlace del gremio en swgoh.gg:
 
@@ -46,8 +50,29 @@ http://swgoh-ga5.online-server.info/
 
 https://swgoh4.life/counters/
 
+https://www.grandarenascience.com/counters/
+
+### Nueva Batalla territorial – Alzamiento del Imperio
+https://genskaar.github.io/tb_empire/html/main.html
 
 
+## Chats y Canales en Telegram de IM
+***
+
+
+
+Chat de conquista IM
+https://t.me/+DUhoMfElfDE4Mzlk
+
+
+Chat de GA 
+https://t.me/+45E4NGdGZFlkMzk0
+
+
+Biblioteca pública de conquista 
+https://t.me/conquestips
+
+*****
 
 
 #### Comentarios, cambios o sugerencias:
@@ -58,3 +83,5 @@ Contacta a Frantizek
 <a href="https://t.me/frantizek"><img src="images/icons8-telegram-48.png" alt="Frantizek en Telegram" width="24" height="24" /></a>
 <a href="https://swgoh.gg/p/447693819/"><img src="images/icons8-swgoh-64.png" alt="Frantizek en swgoh.gg" width="24" height="24" /></a>
 <a href="https://discord.com/channels/@me/1120739028111728740"><img src="images/icons8-discord-48.png" alt="Chebacca Bot en Discord" width="24" height="24" /></a>
+
+- - -
