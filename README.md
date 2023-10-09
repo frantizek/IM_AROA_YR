@@ -24,10 +24,10 @@ https://recruit.swgoh.gg/guild/3111/mperio-mandaloriano-aroa-yr
 
 
 
-<a href="https://t.me/ISRATHENEFILIM"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+<a href="https://t.me/Juako_24"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 
 
-[Contacta al líder del Imperio Mandaloriano Aroa'yr](https://t.me/ISRATHENEFILIM)
+[Contacta al líder del Imperio Mandaloriano Aroa'yr](https://t.me/Juako_24)
 
 
 
