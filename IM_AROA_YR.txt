@@ -19,7 +19,6 @@
 @Juako_24 JuakoEnte 
 @Killercin Killercin 
 @Victor_Mahugo mahugo 
-@MMcloud Mcloud 
 @Michael_Barroso Michael Barroso 
 @Fakiezed Mini Fakie zed
 @misterfrost1977 Misterfrost2 
@@ -35,7 +34,6 @@
 @Bizky0 Torin Woodle 
 @ReivanIM Reivan
 @Viuladourshe Viula Dourshe
-@ovladaf ovladaf
 @Sertupy_chewbakka łM Albertus Desterradix
 @SalvaDM łM CNOS Salva
 @picambrute łM Picథmbrute Goldhook
@@ -48,3 +46,5 @@
 @Yindark yindark
 @Manmec ManMec
 @Aruberuto_San Aruberuto アルベルト
+@MaxPower16 MaxPower
+@DilvishME Dilvish
