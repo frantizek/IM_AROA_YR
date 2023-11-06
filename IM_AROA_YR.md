@@ -58,10 +58,10 @@
 
 
 
-                  
+
 
 <div style="text-align: center;">
 <a href="https://docs.google.com/spreadsheets/d/13gRpR_noZBz46L-uh9_pLAOHhXcOBPxBaGk6sxn92mc/edit?usp=sharing"><img src="images/Google_Sheets_2020_Logo.png" alt="Usuarios" height="24" /></a>
 <a href="https://docs.google.com/spreadsheets/d/13gRpR_noZBz46L-uh9_pLAOHhXcOBPxBaGk6sxn92mc/edit?usp=sharing">Enlace al archivo compartido en linea con los usuarios.</a>
 </div>
-                  
+                        
