@@ -2,6 +2,17 @@
 import os, errno, re, csv, requests
 from bs4 import BeautifulSoup
 from rich.progress import track
+import my_file_validation
+
+
+def simple_validation(my_file):
+    if (my_file_validation.file_exist(my_file) and
+            my_file_validation.file_size(my_file) and
+            my_file_validation.file_lines(my_file) and
+            my_file_validation.file_format(my_file)):
+        print("    - Validacion completada, continuando el procesamiento.")
+    else:
+        print("    - Falla en la validacion del archivo, revisa los ERRORES y/o ADVERTENCIAS.")
 
 
 def silentremove(filename):
@@ -43,6 +54,7 @@ def main():
 
     if os.path.exists("IM_AROA_YR.txt"):
         filename = "IM_AROA_YR.txt"
+        simple_validation(filename)
         lines = read_file(filename)
         print("    - Iniciando el proceso para las {} entradas en el archivo...\n\n\n".format(str(len(lines))))
 
