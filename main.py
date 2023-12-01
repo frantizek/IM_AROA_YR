@@ -3,7 +3,38 @@ import os, errno, re, csv, requests
 from bs4 import BeautifulSoup
 from rich.progress import track
 import my_file_validation
+from reportlab.lib.pagesizes import landscape, letter
+from reportlab.pdfgen import canvas
+import itertools
 
+
+def grouper(iterable, n):
+    args = [iter(iterable)] * n
+    return itertools.zip_longest(*args)
+
+
+def export_to_pdf(data):
+    c = canvas.Canvas("IM_AROA_YR.pdf", pagesize=(landscape(letter)))
+    w, h = landscape(letter)
+    max_rows_per_page = 27
+    # Margin.
+    x_offset = 50
+    y_offset = 50
+    # Space between rows.
+    padding = 15
+
+    xlist = [x + x_offset for x in [0, 110, 260, 490, 680]]
+    ylist = [h - y_offset - i*padding for i in range(max_rows_per_page + 1)]
+
+    for rows in grouper(data, max_rows_per_page):
+        rows = tuple(filter(bool, rows))
+        c.grid(xlist, ylist[:len(rows) + 1])
+        for y, row in zip(ylist[:-1], rows):
+            for x, cell in zip(xlist, row):
+                c.drawString(x + 2, y - padding + 3, str(cell))
+        c.showPage()
+
+    c.save()
 
 def simple_validation(my_file):
     if (my_file_validation.file_exist(my_file) and
@@ -49,6 +80,7 @@ def main():
     # if we delete the previous versions
     silentremove("gremio_aroa.csv")
     silentremove("IM_AROA_YR.md")
+    silentremove("IM_AROA_YR.pdf")
 
     print("    - Se eliminaron las versiones anteriores de los archivos")
 
@@ -65,6 +97,7 @@ def main():
                 d_users[user_data[1].lower()] = user_data[0].lower()
 
             csv_header = ['Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram', 'comando kryat en Discord']
+            data = [('Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram', 'comando kryat en Discord')]
 
             with open('gremio_aroa.csv', 'w', encoding="UTF8", newline='') as this_file:
                 writer = csv.writer(this_file, delimiter=',')
@@ -109,6 +142,7 @@ def main():
 
                         # write the data
                         writer.writerow([allycode_swgoh, username_swgoh, telegram, kryat])
+                        data.append((allycode_swgoh, username_swgoh, telegram, kryat))
 
             # close the file
             this_file.close()
@@ -131,6 +165,9 @@ def main():
                         """])
 
             f.close()
+
+        export_to_pdf(data)
+
         print("\n\nHa terminado el proceso de generar los archivos.")
         print("SOMOS AROA'YR.\n\n")
     else:
