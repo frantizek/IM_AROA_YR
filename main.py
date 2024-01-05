@@ -96,8 +96,8 @@ def main():
                 user_data = line.strip().split(" ", 1)
                 d_users[user_data[1].lower()] = user_data[0].lower()
 
-            csv_header = ['Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram', 'comando kryat en Discord']
-            data = [('Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram', 'comando kryat en Discord')]
+            csv_header = ['Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram']
+            data = [('Codigo de aliado', 'Usuario en SWGOH', 'Usuario en Telegram')]
 
             with open('gremio_aroa.csv', 'w', encoding="UTF8", newline='') as this_file:
                 writer = csv.writer(this_file, delimiter=',')
@@ -119,7 +119,7 @@ def main():
                 uswgoh_l = []
                 telegram_l = []
                 message_me_l = []
-                kryat_l = []
+                
 
                 headers = [header.text for header in table.find_all('th')]
                 results = [{headers[i]: cell for i, cell in enumerate(row.find_all('td'))}
@@ -131,28 +131,26 @@ def main():
                         username_swgoh = re.search(r'<div><strong>(.*?)</strong></div>',
                                                 tag_converted_to_str).group(1)
                         allycode_swgoh = re.search(r'<a href="/p/(.*?)/">', tag_converted_to_str).group(1)
-                        kryat = f"/krayt max allycode: {allycode_swgoh}"
                         telegram = search_telegram_user(username_swgoh.lower(), d_users)
 
                         acode_l.append(allycode_swgoh)
                         uswgoh_l.append(username_swgoh)
                         telegram_l.append(telegram)
                         message_me_l.append(f"https://t.me/{telegram}")
-                        kryat_l.append(kryat)
 
                         # write the data
-                        writer.writerow([allycode_swgoh, username_swgoh, telegram, kryat])
-                        data.append((allycode_swgoh, username_swgoh, telegram, kryat))
+                        writer.writerow([allycode_swgoh, username_swgoh, telegram])
+                        data.append((allycode_swgoh, username_swgoh, telegram))
 
             # close the file
             this_file.close()
 
             f = open("IM_AROA_YR.md", "w", encoding="utf-8")
             f.writelines(["# Imperio Mandaloriano Aroa'yr\n"])
-            f.writelines(["\n| Codigo de aliado | Usuario en SWGOH | Enlace Perfil SWGOH | Usuario en Telegram | Mensaje Telegram | Comando kryat en Discord | Mensaje al Bot en Discord |\n"])
+            f.writelines(["\n| Codigo de aliado | Usuario en SWGOH | Enlace Perfil SWGOH | Usuario en Telegram | Mensaje Telegram |\n"])
             f.writelines(["|--- | ----:|:----|----:|:----| ---- |--- |\n"])
             for guild_users in range(0, len(acode_l)):
-                f.writelines([f"| {acode_l[guild_users]} |{uswgoh_l[guild_users]} | <a href=\"https://swgoh.gg/p/{acode_l[guild_users]}/\"><img src=\"images/icons8-swgoh-64.png\" alt=\"Perfil en swgoh.gg\" width=\"24\" height=\"24\" /></a> | {telegram_l[guild_users]} | <a href=\"{message_me_l[guild_users]}\"><img src=\"images/icons8-telegram-48.png\" alt=\"Mensaje por Telegram.\" width=\"24\" height=\"24\"  /></a> | {kryat_l[guild_users]} | <a href=\"https://discord.com/channels/@me/1120739028111728740\"><img src=\"images/icons8-discord-48.png\"  alt=\"Consulta el Bot en Discord.\" width=\"24\" height=\"24\" /></a> |\n"])
+                f.writelines([f"| {acode_l[guild_users]} |{uswgoh_l[guild_users]} | <a href=\"https://swgoh.gg/p/{acode_l[guild_users]}/\"><img src=\"images/icons8-swgoh-64.png\" alt=\"Perfil en swgoh.gg\" width=\"24\" height=\"24\" /></a> | {telegram_l[guild_users]} | <a href=\"{message_me_l[guild_users]}\"><img src=\"images/icons8-telegram-48.png\" alt=\"Mensaje por Telegram.\" width=\"24\" height=\"24\"  /></a> |\n"])
             f.writelines(["|  |  |  |   | | | |\n"])
             f.writelines(["\n\n\n\n"])
 
