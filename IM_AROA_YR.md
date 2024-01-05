@@ -1,7 +1,7 @@
 # Imperio Mandaloriano Aroa'yr
 
 | Codigo de aliado | Usuario en SWGOH | Enlace Perfil SWGOH | Usuario en Telegram | Mensaje Telegram |
-|--- | ----:|:----|----:|:----| ---- |--- |
+|--- | ----:|:----|----:|:----|
 | 336193742 |RJ3017 | <a href="https://swgoh.gg/p/336193742/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | rj3017 | <a href="https://t.me/rj3017"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 447693819 |Frantizek Haruv | <a href="https://swgoh.gg/p/447693819/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | frantizek | <a href="https://t.me/frantizek"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 152436162 |JuakoEnte | <a href="https://swgoh.gg/p/152436162/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | juako_24 | <a href="https://t.me/juako_24"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
@@ -52,7 +52,7 @@
 | 332993964 |Dart Sun | <a href="https://swgoh.gg/p/332993964/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | dartsun | <a href="https://t.me/dartsun"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 947971919 |MINI adanedhel π | <a href="https://swgoh.gg/p/947971919/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | messi1010_10 | <a href="https://t.me/messi1010_10"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 181916315 |SMora | <a href="https://swgoh.gg/p/181916315/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | smora14 | <a href="https://t.me/smora14"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
-|  |  |  |   | | | |
+|  |  |  |   | |
 
 
 
