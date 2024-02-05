@@ -1,6 +1,6 @@
 from pathlib import Path
 
-def file_exist(my_file):
+def file_exist(my_file) -> bool:
     try:
         Path(my_file).resolve(strict=True)
     except FileNotFoundError:
@@ -11,7 +11,7 @@ def file_exist(my_file):
         return True
 
 
-def file_size(my_file):
+def file_size(my_file) -> bool:
     try:
         Path(my_file).stat()
     except FileNotFoundError:
@@ -26,7 +26,7 @@ def file_size(my_file):
             return True
 
 
-def file_lines(my_file):
+def file_lines(my_file) -> bool:
     if sum(1 for _ in open(my_file)) > 1:
         # print(f'File lines in the file: {sum(1 for _ in open(my_file))}.')
         return True
@@ -34,7 +34,7 @@ def file_lines(my_file):
         return False
 
 
-def file_format(my_file):
+def file_format(my_file) -> bool:
     with open(my_file, mode="r", encoding="utf-8") as f:
         for i, _ in enumerate(f):
             if _.rstrip().find('@') == 0:

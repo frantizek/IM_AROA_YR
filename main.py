@@ -36,7 +36,7 @@ def export_to_pdf(data):
 
     c.save()
 
-def simple_validation(my_file):
+def simple_validation(my_file) -> None:
     if (my_file_validation.file_exist(my_file) and
             my_file_validation.file_size(my_file) and
             my_file_validation.file_lines(my_file) and
@@ -46,7 +46,7 @@ def simple_validation(my_file):
         print("    - Falla en la validacion del archivo, revisa los ERRORES y/o ADVERTENCIAS.")
 
 
-def silentremove(filename):
+def silentremove(filename) -> None:
     try:
         os.remove(filename)
     except OSError as e: # this would be "except OSError, e:" before Python 2.6
@@ -54,7 +54,7 @@ def silentremove(filename):
             raise # re-raise exception if a different error occurred
 
 
-def read_file(filename):
+def read_file(filename) -> list:
     """Open the file in read mode, returns the lines."""
     with open(filename, "r", encoding="utf-8") as this_file:
         lines = this_file.readlines()
@@ -167,7 +167,7 @@ def main():
         export_to_pdf(data)
 
         print("\n\nHa terminado el proceso de generar los archivos.")
-        print("SOMOS AROA'YR.\n\n")
+        print("¡SOMOS AROA'YR! \n\n")
     else:
         print("Error: el archivo que contiene los usuarios no existe o no puede leerse.")
         return 1
