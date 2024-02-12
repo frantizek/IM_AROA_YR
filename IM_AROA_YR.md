@@ -50,8 +50,8 @@
 | 332993964 |Dart Sun | <a href="https://swgoh.gg/p/332993964/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | dartsun | <a href="https://t.me/dartsun"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 947971919 |MINI adanedhel π | <a href="https://swgoh.gg/p/947971919/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | messi1010_10 | <a href="https://t.me/messi1010_10"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 181916315 |SMora | <a href="https://swgoh.gg/p/181916315/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | smora14 | <a href="https://t.me/smora14"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
-| 573884449 |Leonel | <a href="https://swgoh.gg/p/573884449/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | leonel | <a href="https://t.me/leonel"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 | 244353286 |Noelix | <a href="https://swgoh.gg/p/244353286/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | noelix8 | <a href="https://t.me/noelix8"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
+| 389849275 |Magan | <a href="https://swgoh.gg/p/389849275/"><img src="images/icons8-swgoh-64.png" alt="Perfil en swgoh.gg" width="24" height="24" /></a> | magan41 | <a href="https://t.me/magan41"><img src="images/icons8-telegram-48.png" alt="Mensaje por Telegram." width="24" height="24"  /></a> |
 |  |  |  |   | |
 
 
