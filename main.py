@@ -70,9 +70,16 @@ def search_telegram_user(user_name, dict_of_users):
 
 
 def main():
-    """Lets create a list with the latest guils members."""
+    """Let's create the files with the guild members."""
     # Initializing the users dictionary
     d_users = {}
+    swgoh_gg = True
+
+    print("Recuerda: para procesar la informacion actualizada del gremio,")
+    print("necesitamos sincronizar la pagina en https://swgoh.gg/")
+    while swgoh_gg:
+        _ = input("Presiona ENTER para continuar, una vez que hayas sincronizado la info del gremio.")
+        swgoh_gg = False
 
     print("\n\nIniciando el proceso de generar los archivos con la informacion actualizada del gremio... ")
 
