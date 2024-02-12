@@ -71,9 +71,9 @@ def search_telegram_user(user_name, dict_of_users):
 
 def main():
     """Let's create the files with the guild members."""
+
     # Initializing the users dictionary
     d_users = {}
-    swgoh_gg = True
 
     print("Para procesar la informacion actualizada del gremio,")
     print("necesitamos sincronizar la pagina en https://swgoh.gg/")
@@ -81,7 +81,6 @@ def main():
         responde_swgoh_gg = input("Actualizaste la informacion presionando el boton de Sync Guild? [S/N] >> ")
         if responde_swgoh_gg.lower() == "s":
             break  # Exit the loop
-
 
     print("\n\nIniciando el proceso de generar los archivos con la informacion actualizada del gremio... ")
 
