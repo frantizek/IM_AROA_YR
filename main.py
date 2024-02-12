@@ -75,11 +75,13 @@ def main():
     d_users = {}
     swgoh_gg = True
 
-    print("Recuerda: para procesar la informacion actualizada del gremio,")
+    print("Para procesar la informacion actualizada del gremio,")
     print("necesitamos sincronizar la pagina en https://swgoh.gg/")
-    while swgoh_gg:
-        _ = input("Presiona ENTER para continuar, una vez que hayas sincronizado la info del gremio.")
-        swgoh_gg = False
+    while True:
+        responde_swgoh_gg = input("Actualizaste la informacion presionando el boton de Sync Guild? [S/N] >> ")
+        if responde_swgoh_gg.lower() == "s":
+            break  # Exit the loop
+
 
     print("\n\nIniciando el proceso de generar los archivos con la informacion actualizada del gremio... ")
 
