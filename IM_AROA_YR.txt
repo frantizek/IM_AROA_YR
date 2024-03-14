@@ -21,7 +21,6 @@
 @PacoSW Paco 
 @PeibowL PeibowL 
 @Radix510 Radix 
-@Carlos_Hidalgo72 Rhil Karlit 
 @RJ3017 RJ3017 
 @Rubell Rubell Num 
 @PetPardo Shmullus 
@@ -35,8 +34,6 @@
 @ROGER_MARADONA ROGER
 @Dravhen Dravhen Akkad
 @ZeruelShinomori Zeruel
-@Yindark yindark
-@Manmec ManMec
 @MaxPower16 MaxPower
 @DilvishME Dilvish
 @smora14 smora
@@ -48,3 +45,6 @@
 @Hrja181275 Shawdow1975
 @Hrja181275 shadow1812
 @JOSELUIS JOSE LUIS
+@davidbanegas Banegas
+@Master92LSF Master92
+@Romano_swgoh romano
